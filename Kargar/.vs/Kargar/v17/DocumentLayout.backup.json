@@ -1,0 +1,373 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\C#\\Kargar\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{98D18684-5D18-4382-B870-0D0BE3869CB9}|Kargar\\Kargar.csproj|e:\\c#\\kargar\\kargar\\controllers\\api\\servicesapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98D18684-5D18-4382-B870-0D0BE3869CB9}|Kargar\\Kargar.csproj|solutionrelative:kargar\\controllers\\api\\servicesapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D18684-5D18-4382-B870-0D0BE3869CB9}|Kargar\\Kargar.csproj|e:\\c#\\kargar\\kargar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98D18684-5D18-4382-B870-0D0BE3869CB9}|Kargar\\Kargar.csproj|solutionrelative:kargar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D18684-5D18-4382-B870-0D0BE3869CB9}|Kargar\\Kargar.csproj|e:\\c#\\kargar\\kargar\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98D18684-5D18-4382-B870-0D0BE3869CB9}|Kargar\\Kargar.csproj|solutionrelative:kargar\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D18684-5D18-4382-B870-0D0BE3869CB9}|Kargar\\Kargar.csproj|e:\\c#\\kargar\\kargar\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98D18684-5D18-4382-B870-0D0BE3869CB9}|Kargar\\Kargar.csproj|solutionrelative:kargar\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D18684-5D18-4382-B870-0D0BE3869CB9}|Kargar\\Kargar.csproj|e:\\c#\\kargar\\kargar\\models\\repository\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98D18684-5D18-4382-B870-0D0BE3869CB9}|Kargar\\Kargar.csproj|solutionrelative:kargar\\models\\repository\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D18684-5D18-4382-B870-0D0BE3869CB9}|Kargar\\Kargar.csproj|e:\\c#\\kargar\\kargar\\models\\interface\\ibookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98D18684-5D18-4382-B870-0D0BE3869CB9}|Kargar\\Kargar.csproj|solutionrelative:kargar\\models\\interface\\ibookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D18684-5D18-4382-B870-0D0BE3869CB9}|Kargar\\Kargar.csproj|e:\\c#\\kargar\\kargar\\models\\interface\\iservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98D18684-5D18-4382-B870-0D0BE3869CB9}|Kargar\\Kargar.csproj|solutionrelative:kargar\\models\\interface\\iservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D18684-5D18-4382-B870-0D0BE3869CB9}|Kargar\\Kargar.csproj|e:\\c#\\kargar\\kargar\\models\\repository\\servicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98D18684-5D18-4382-B870-0D0BE3869CB9}|Kargar\\Kargar.csproj|solutionrelative:kargar\\models\\repository\\servicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D18684-5D18-4382-B870-0D0BE3869CB9}|Kargar\\Kargar.csproj|e:\\c#\\kargar\\kargar\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98D18684-5D18-4382-B870-0D0BE3869CB9}|Kargar\\Kargar.csproj|solutionrelative:kargar\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D18684-5D18-4382-B870-0D0BE3869CB9}|Kargar\\Kargar.csproj|e:\\c#\\kargar\\kargar\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98D18684-5D18-4382-B870-0D0BE3869CB9}|Kargar\\Kargar.csproj|solutionrelative:kargar\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D18684-5D18-4382-B870-0D0BE3869CB9}|Kargar\\Kargar.csproj|e:\\c#\\kargar\\kargar\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98D18684-5D18-4382-B870-0D0BE3869CB9}|Kargar\\Kargar.csproj|solutionrelative:kargar\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D18684-5D18-4382-B870-0D0BE3869CB9}|Kargar\\Kargar.csproj|e:\\c#\\kargar\\kargar\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98D18684-5D18-4382-B870-0D0BE3869CB9}|Kargar\\Kargar.csproj|solutionrelative:kargar\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D18684-5D18-4382-B870-0D0BE3869CB9}|Kargar\\Kargar.csproj|e:\\c#\\kargar\\kargar\\hubs\\notificationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98D18684-5D18-4382-B870-0D0BE3869CB9}|Kargar\\Kargar.csproj|solutionrelative:kargar\\hubs\\notificationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D18684-5D18-4382-B870-0D0BE3869CB9}|Kargar\\Kargar.csproj|e:\\c#\\kargar\\kargar\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98D18684-5D18-4382-B870-0D0BE3869CB9}|Kargar\\Kargar.csproj|solutionrelative:kargar\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D18684-5D18-4382-B870-0D0BE3869CB9}|Kargar\\Kargar.csproj|e:\\c#\\kargar\\kargar\\wwwroot\\js\\signalr.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{98D18684-5D18-4382-B870-0D0BE3869CB9}|Kargar\\Kargar.csproj|solutionrelative:kargar\\wwwroot\\js\\signalr.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D18684-5D18-4382-B870-0D0BE3869CB9}|Kargar\\Kargar.csproj|e:\\c#\\kargar\\kargar\\controllers\\providercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98D18684-5D18-4382-B870-0D0BE3869CB9}|Kargar\\Kargar.csproj|solutionrelative:kargar\\controllers\\providercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D18684-5D18-4382-B870-0D0BE3869CB9}|Kargar\\Kargar.csproj|e:\\c#\\kargar\\kargar\\views\\customer\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98D18684-5D18-4382-B870-0D0BE3869CB9}|Kargar\\Kargar.csproj|solutionrelative:kargar\\views\\customer\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D18684-5D18-4382-B870-0D0BE3869CB9}|Kargar\\Kargar.csproj|e:\\c#\\kargar\\kargar\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98D18684-5D18-4382-B870-0D0BE3869CB9}|Kargar\\Kargar.csproj|solutionrelative:kargar\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D18684-5D18-4382-B870-0D0BE3869CB9}|Kargar\\Kargar.csproj|e:\\c#\\kargar\\kargar\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98D18684-5D18-4382-B870-0D0BE3869CB9}|Kargar\\Kargar.csproj|solutionrelative:kargar\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D18684-5D18-4382-B870-0D0BE3869CB9}|Kargar\\Kargar.csproj|e:\\c#\\kargar\\kargar\\kargar.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{98D18684-5D18-4382-B870-0D0BE3869CB9}|Kargar\\Kargar.csproj|solutionrelative:kargar\\kargar.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D18684-5D18-4382-B870-0D0BE3869CB9}|Kargar\\Kargar.csproj|e:\\c#\\kargar\\kargar\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98D18684-5D18-4382-B870-0D0BE3869CB9}|Kargar\\Kargar.csproj|solutionrelative:kargar\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 18,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookingRepository.cs",
+              "DocumentMoniker": "E:\\C#\\Kargar\\Kargar\\Models\\Repository\\BookingRepository.cs",
+              "RelativeDocumentMoniker": "Kargar\\Models\\Repository\\BookingRepository.cs",
+              "ToolTip": "E:\\C#\\Kargar\\Kargar\\Models\\Repository\\BookingRepository.cs",
+              "RelativeToolTip": "Kargar\\Models\\Repository\\BookingRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAYwBYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T05:49:29.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IBookingRepository.cs",
+              "DocumentMoniker": "E:\\C#\\Kargar\\Kargar\\Models\\Interface\\IBookingRepository.cs",
+              "RelativeDocumentMoniker": "Kargar\\Models\\Interface\\IBookingRepository.cs",
+              "ToolTip": "E:\\C#\\Kargar\\Kargar\\Models\\Interface\\IBookingRepository.cs",
+              "RelativeToolTip": "Kargar\\Models\\Interface\\IBookingRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T05:48:31.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ServiceRepository.cs",
+              "DocumentMoniker": "E:\\C#\\Kargar\\Kargar\\Models\\Repository\\ServiceRepository.cs",
+              "RelativeDocumentMoniker": "Kargar\\Models\\Repository\\ServiceRepository.cs",
+              "ToolTip": "E:\\C#\\Kargar\\Kargar\\Models\\Repository\\ServiceRepository.cs",
+              "RelativeToolTip": "Kargar\\Models\\Repository\\ServiceRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T05:42:09.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IServiceRepository.cs",
+              "DocumentMoniker": "E:\\C#\\Kargar\\Kargar\\Models\\Interface\\IServiceRepository.cs",
+              "RelativeDocumentMoniker": "Kargar\\Models\\Interface\\IServiceRepository.cs",
+              "ToolTip": "E:\\C#\\Kargar\\Kargar\\Models\\Interface\\IServiceRepository.cs",
+              "RelativeToolTip": "Kargar\\Models\\Interface\\IServiceRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T05:41:30.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\C#\\Kargar\\Kargar\\Program.cs",
+              "RelativeDocumentMoniker": "Kargar\\Program.cs",
+              "ToolTip": "E:\\C#\\Kargar\\Kargar\\Program.cs",
+              "RelativeToolTip": "Kargar\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T05:35:40.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "E:\\C#\\Kargar\\Kargar\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Kargar\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "E:\\C#\\Kargar\\Kargar\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Kargar\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T05:25:49.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "E:\\C#\\Kargar\\Kargar\\Views\\Customer\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Kargar\\Views\\Customer\\Dashboard.cshtml",
+              "ToolTip": "E:\\C#\\Kargar\\Kargar\\Views\\Customer\\Dashboard.cshtml",
+              "RelativeToolTip": "Kargar\\Views\\Customer\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-19T05:16:50.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\C#\\Kargar\\Kargar\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Kargar\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\C#\\Kargar\\Kargar\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Kargar\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwDEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-19T05:14:53.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "signalr.js",
+              "DocumentMoniker": "E:\\C#\\Kargar\\Kargar\\wwwroot\\js\\signalr.js",
+              "RelativeDocumentMoniker": "Kargar\\wwwroot\\js\\signalr.js",
+              "ToolTip": "E:\\C#\\Kargar\\Kargar\\wwwroot\\js\\signalr.js",
+              "RelativeToolTip": "Kargar\\wwwroot\\js\\signalr.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-19T05:04:01.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_Footer.cshtml",
+              "DocumentMoniker": "E:\\C#\\Kargar\\Kargar\\Views\\Shared\\_Footer.cshtml",
+              "RelativeDocumentMoniker": "Kargar\\Views\\Shared\\_Footer.cshtml",
+              "ToolTip": "E:\\C#\\Kargar\\Kargar\\Views\\Shared\\_Footer.cshtml",
+              "RelativeToolTip": "Kargar\\Views\\Shared\\_Footer.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-19T05:01:01.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_Sidebar.cshtml",
+              "DocumentMoniker": "E:\\C#\\Kargar\\Kargar\\Views\\Shared\\_Sidebar.cshtml",
+              "RelativeDocumentMoniker": "Kargar\\Views\\Shared\\_Sidebar.cshtml",
+              "ToolTip": "E:\\C#\\Kargar\\Kargar\\Views\\Shared\\_Sidebar.cshtml",
+              "RelativeToolTip": "Kargar\\Views\\Shared\\_Sidebar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-19T05:00:42.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NotificationHub.cs",
+              "DocumentMoniker": "E:\\C#\\Kargar\\Kargar\\Hubs\\NotificationHub.cs",
+              "RelativeDocumentMoniker": "Kargar\\Hubs\\NotificationHub.cs",
+              "ToolTip": "E:\\C#\\Kargar\\Kargar\\Hubs\\NotificationHub.cs",
+              "RelativeToolTip": "Kargar\\Hubs\\NotificationHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T05:00:05.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Kargar.csproj",
+              "DocumentMoniker": "E:\\C#\\Kargar\\Kargar\\Kargar.csproj",
+              "RelativeDocumentMoniker": "Kargar\\Kargar.csproj",
+              "ToolTip": "E:\\C#\\Kargar\\Kargar\\Kargar.csproj",
+              "RelativeToolTip": "Kargar\\Kargar.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-19T04:59:42.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Review.cs",
+              "DocumentMoniker": "E:\\C#\\Kargar\\Kargar\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "Kargar\\Models\\Review.cs",
+              "ToolTip": "E:\\C#\\Kargar\\Kargar\\Models\\Review.cs",
+              "RelativeToolTip": "Kargar\\Models\\Review.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T04:59:21.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "E:\\C#\\Kargar\\Kargar\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "Kargar\\Models\\Booking.cs",
+              "ToolTip": "E:\\C#\\Kargar\\Kargar\\Models\\Booking.cs",
+              "RelativeToolTip": "Kargar\\Models\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T04:59:08.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Service.cs",
+              "DocumentMoniker": "E:\\C#\\Kargar\\Kargar\\Models\\Service.cs",
+              "RelativeDocumentMoniker": "Kargar\\Models\\Service.cs",
+              "ToolTip": "E:\\C#\\Kargar\\Kargar\\Models\\Service.cs",
+              "RelativeToolTip": "Kargar\\Models\\Service.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T04:58:53.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "E:\\C#\\Kargar\\Kargar\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Kargar\\Models\\ApplicationUser.cs",
+              "ToolTip": "E:\\C#\\Kargar\\Kargar\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Kargar\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T04:58:40.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServicesApiController.cs",
+              "DocumentMoniker": "E:\\C#\\Kargar\\Kargar\\Controllers\\Api\\ServicesApiController.cs",
+              "RelativeDocumentMoniker": "Kargar\\Controllers\\Api\\ServicesApiController.cs",
+              "ToolTip": "E:\\C#\\Kargar\\Kargar\\Controllers\\Api\\ServicesApiController.cs*",
+              "RelativeToolTip": "Kargar\\Controllers\\Api\\ServicesApiController.cs*",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T04:58:22.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "E:\\C#\\Kargar\\Kargar\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Kargar\\Controllers\\AdminController.cs",
+              "ToolTip": "E:\\C#\\Kargar\\Kargar\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Kargar\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T04:57:40.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProviderController.cs",
+              "DocumentMoniker": "E:\\C#\\Kargar\\Kargar\\Controllers\\ProviderController.cs",
+              "RelativeDocumentMoniker": "Kargar\\Controllers\\ProviderController.cs",
+              "ToolTip": "E:\\C#\\Kargar\\Kargar\\Controllers\\ProviderController.cs",
+              "RelativeToolTip": "Kargar\\Controllers\\ProviderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T04:57:29.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "E:\\C#\\Kargar\\Kargar\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Kargar\\Controllers\\CustomerController.cs",
+              "ToolTip": "E:\\C#\\Kargar\\Kargar\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Kargar\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAADYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T04:57:07.018Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

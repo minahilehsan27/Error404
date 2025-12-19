@@ -1,0 +1,17 @@
+﻿<div id="map" style="height:400px;"></div>
+
+<script>
+function initMap() {
+    var location = { lat: 31.5204, lng: 74.3587 }; // Lahore
+    var map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 12,
+        center: location
+    });
+
+    new google.maps.Marker({
+        position: location,
+        map: map
+    });
+}
+initMap();
+</script>

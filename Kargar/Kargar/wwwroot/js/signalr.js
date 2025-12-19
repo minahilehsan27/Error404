@@ -1,0 +1,13 @@
+﻿<script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.5/signalr.min.js"></script>
+
+<script>
+const connection = new signalR.HubConnectionBuilder()
+    .withUrl("/notificationHub")
+    .build();
+
+connection.start();
+
+connection.on("ReceiveNotification", function (message) {
+    alert(message);
+});
+</script>

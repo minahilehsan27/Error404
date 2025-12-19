@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "Kargar.Controllers.Api.ServicesApiController",
+    "Method": "GetServices",
+    "RelativePath": "api/services",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Kargar.Controllers.Api.ServicesApiController",
+    "Method": "BookService",
+    "RelativePath": "api/services/book",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "booking",
+        "Type": "Booking",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
