@@ -1,0 +1,144 @@
+﻿@model IEnumerable<Karigar.Models.Service>
+@{
+    ViewData["Title"] = "Browse Services";
+}
+
+<div class="container mt-4">
+    <div class="row mb-4">
+        <div class="col-12">
+            <h2><i class="fas fa-search me-2"></i>Browse Services</h2>
+            <p class="text-muted">Find trusted service providers near you</p>
+        </div>
+    </div>
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            @TempData["SuccessMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+    }
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            @TempData["ErrorMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+    }
+
+    <!-- Filters -->
+    <div class="row mb-4">
+        <div class="col-md-8">
+            <div class="card border-0 shadow-sm">
+                <div class="card-body">
+                    <form method="get" class="row g-3">
+                        <div class="col-md-4">
+                            <label class="form-label">Category</label>
+                            <select name="category" class="form-select">
+                                <option value="">All Categories</option>
+                                @foreach (var category in ViewData["Categories"] as List<string> ?? new List<string>())
+                                {
+                                    <option value="@category" selected="@(ViewContext.HttpContext.Request.Query["category"] == category)">@category</option>
+                                }
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label">Location</label>
+                            <input type="text" name="location" class="form-control"
+                                   placeholder="Enter location"
+                                   value="@ViewContext.HttpContext.Request.Query["location"]">
+                        </div>
+                        <div class="col-md-4 d-flex align-items-end">
+                            <button type="submit" class="btn btn-karigar-primary w-100">
+                                <i class="fas fa-filter me-2"></i> Filter
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card border-0 shadow-sm h-100">
+                <div class="card-body d-flex align-items-center justify-content-center">
+                    <div class="text-center">
+                        <h5 class="text-primary mb-2">@Model.Count() Services Available</h5>
+                        <p class="text-muted mb-0">Ready to serve you</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Grid -->
+    <div class="row" id="services-container">
+        @if (Model.Any())
+        {
+            foreach (var service in Model)
+            {
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="service-card h-100">
+                        <div class="card-header d-flex justify-content-between align-items-center">
+                            <h5 class="mb-0">@service.Title</h5>
+                            <span class="badge-karigar">@service.Category</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="rounded-circle bg-light d-flex align-items-center justify-content-center me-3"
+                                     style="width: 60px; height: 60px;">
+                                    <i class="fas fa-user-tie fa-2x text-primary"></i>
+                                </div>
+                                <div>
+                                    <h6 class="mb-1">@service.ProviderName</h6>
+                                    <p class="text-muted small mb-0">
+                                        <i class="fas fa-map-marker-alt me-1"></i> @service.Location
+                                    </p>
+                                </div>
+                            </div>
+
+                            @{
+                                var description = service.Description?.Length > 120
+                                ? service.Description.Substring(0, 120) + "..."
+                                : service.Description;
+                            }
+                            <p class="card-text">@description</p>
+
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <div>
+                                    <span class="fw-bold text-primary fs-5">₹@service.Price</span>
+                                    <span class="text-muted">/service</span>
+                                </div>
+                                <div class="text-warning">
+                                    @for (int i = 1; i <= 5; i++)
+                                    {
+                                        <i class="fas fa-star @(i <= service.Rating ? "text-warning" : "text-light")"></i>
+                                    }
+                                    <span class="ms-1">(@service.ReviewCount)</span>
+                                </div>
+                            </div>
+
+                            <div class="d-grid">
+                                <a asp-action="Book" asp-route-id="@service.Id" class="btn btn-karigar-primary">
+                                    <i class="fas fa-calendar-plus me-2"></i> Book Now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <div class="col-12">
+                <div class="text-center py-5">
+                    <i class="fas fa-search fa-4x text-muted mb-4"></i>
+                    <h4>No services found</h4>
+                    <p class="text-muted">Try adjusting your filters or check back later</p>
+                    <a asp-action="Browse" class="btn btn-karigar-outline mt-3">
+                        <i class="fas fa-redo me-2"></i> Clear Filters
+                    </a>
+                </div>
+            </div>
+        }
+    </div>
+</div>

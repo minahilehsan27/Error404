@@ -1,0 +1,102 @@
+﻿@model Karigar.Models.Booking
+@{
+    ViewData["Title"] = "Book Service";
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <div class="card border-0 shadow-sm">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0"><i class="fas fa-calendar-plus me-2"></i>Book Service</h4>
+                </div>
+                <div class="card-body">
+                    @if (TempData["ErrorMessage"] != null)
+                    {
+                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                            @TempData["ErrorMessage"]
+                            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                        </div>
+                    }
+
+                    <h5>Service: @Model.ServiceTitle</h5>
+                    <p class="text-muted mb-4">Please provide booking details below:</p>
+
+                    <form asp-action="Book" method="post">
+                        <input type="hidden" asp-for="ServiceId" />
+                        <input type="hidden" asp-for="ServiceTitle" />
+                        <input type="hidden" asp-for="ProviderId" />
+                        <input type="hidden" asp-for="ProviderName" />
+                        <input type="hidden" asp-for="Amount" />
+
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label asp-for="BookingDate" class="form-label">Booking Date & Time</label>
+                                <input asp-for="BookingDate" class="form-control" type="datetime-local"
+                                       min="@DateTime.Now.ToString("yyyy-MM-ddTHH:mm")" required />
+                                <span asp-validation-for="BookingDate" class="text-danger small"></span>
+                            </div>
+
+                            <div class="col-md-6">
+                                <label asp-for="PhoneNumber" class="form-label">Contact Phone</label>
+                                <input asp-for="PhoneNumber" class="form-control" placeholder="+91 9876543210" required />
+                                <span asp-validation-for="PhoneNumber" class="text-danger small"></span>
+                            </div>
+
+                            <div class="col-12">
+                                <label asp-for="Address" class="form-label">Service Address</label>
+                                <textarea asp-for="Address" class="form-control" rows="3"
+                                          placeholder="Enter complete address with landmark" required></textarea>
+                                <span asp-validation-for="Address" class="text-danger small"></span>
+                            </div>
+
+                            <div class="col-12">
+                                <label asp-for="SpecialInstructions" class="form-label">Special Instructions (Optional)</label>
+                                <textarea asp-for="SpecialInstructions" class="form-control" rows="2"
+                                          placeholder="Any special requirements or instructions"></textarea>
+                                <span asp-validation-for="SpecialInstructions" class="text-danger small"></span>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="card bg-light">
+                                    <div class="card-body">
+                                        <h6 class="mb-3"><i class="fas fa-receipt me-2"></i>Booking Summary</h6>
+                                        <div class="d-flex justify-content-between mb-2">
+                                            <span>Service:</span>
+                                            <span>@Model.ServiceTitle</span>
+                                        </div>
+                                        <div class="d-flex justify-content-between mb-2">
+                                            <span>Provider:</span>
+                                            <span>@Model.ProviderName</span>
+                                        </div>
+                                        <div class="d-flex justify-content-between mb-2">
+                                            <span>Amount:</span>
+                                            <span class="fw-bold text-primary">₹@Model.Amount</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 mt-4">
+                                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                    <a asp-action="Browse" class="btn btn-karigar-outline me-md-2">
+                                        <i class="fas fa-times me-2"></i> Cancel
+                                    </a>
+                                    <button type="submit" class="btn btn-karigar-primary">
+                                        <i class="fas fa-check me-2"></i> Submit Booking Request
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

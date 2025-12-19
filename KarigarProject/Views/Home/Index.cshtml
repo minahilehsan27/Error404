@@ -1,0 +1,263 @@
+﻿@{
+    ViewData["Title"] = "Home - KarigarConnect";
+}
+
+<!-- Hero Section -->
+<div class="hero-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <h1 class="hero-title">Find Trusted Local Service Providers</h1>
+                <p class="hero-subtitle">Connect with skilled professionals in your neighborhood for all your service needs - plumbing, electrical, cleaning, tutoring and more.</p>
+                <div class="d-flex flex-wrap gap-3">
+                    <a asp-controller="Customer" asp-action="Browse" class="btn btn-karigar-primary">
+                        <i class="fas fa-search me-2"></i> Find Services
+                    </a>
+                    <a asp-controller="Account" asp-action="Register" class="btn btn-karigar-secondary">
+                        <i class="fas fa-user-plus me-2"></i> Register as Provider
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center">
+                <i class="fas fa-hands-helping" style="font-size: 10rem; color: rgba(255,255,255,0.3);"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- How It Works -->
+<div class="container my-5 py-5">
+    <div class="row text-center mb-5">
+        <div class="col-12">
+            <h2 class="mb-3">How It Works</h2>
+            <p class="text-muted">Simple steps to get your work done</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="text-center p-4">
+                <div class="rounded-circle bg-primary text-white d-inline-flex align-items-center justify-content-center"
+                     style="width: 80px; height: 80px; margin-bottom: 20px;">
+                    <i class="fas fa-search fa-2x"></i>
+                </div>
+                <h4>Search & Discover</h4>
+                <p class="text-muted">Browse verified service providers by category and location. View ratings and reviews.</p>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="text-center p-4">
+                <div class="rounded-circle bg-primary text-white d-inline-flex align-items-center justify-content-center"
+                     style="width: 80px; height: 80px; margin-bottom: 20px;">
+                    <i class="fas fa-calendar-check fa-2x"></i>
+                </div>
+                <h4>Book & Confirm</h4>
+                <p class="text-muted">Choose date and time that works for you. Get instant confirmation from providers.</p>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="text-center p-4">
+                <div class="rounded-circle bg-primary text-white d-inline-flex align-items-center justify-content-center"
+                     style="width: 80px; height: 80px; margin-bottom: 20px;">
+                    <i class="fas fa-star fa-2x"></i>
+                </div>
+                <h4>Service & Review</h4>
+                <p class="text-muted">Get quality service and pay securely. Share your experience to help others.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Popular Services -->
+<div class="container my-5 py-5">
+    <div class="row mb-5">
+        <div class="col-12">
+            <h2 class="mb-3">Popular Services</h2>
+            <p class="text-muted">Most requested services in your area</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- Service Card 1 -->
+        <div class="col-md-4 mb-4">
+            <div class="service-card">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <h5 class="mb-0">Plumbing Services</h5>
+                    <span class="badge-karigar">Plumbing</span>
+                </div>
+                <div class="card-body">
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="rounded-circle bg-light d-flex align-items-center justify-content-center me-3"
+                             style="width: 60px; height: 60px;">
+                            <i class="fas fa-wrench fa-2x text-primary"></i>
+                        </div>
+                        <div>
+                            <h6 class="mb-1">AquaFix Plumbers</h6>
+                            <p class="text-muted small mb-0">
+                                <i class="fas fa-map-marker-alt me-1"></i> Mumbai
+                            </p>
+                        </div>
+                    </div>
+                    <p class="card-text">Expert plumbing solutions for homes and offices including pipe repair, leakage fixing, and installation.</p>
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <div>
+                            <span class="fw-bold text-primary fs-5">₹1200</span>
+                            <span class="text-muted">/service</span>
+                        </div>
+                        <div class="text-warning">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star-half-alt text-warning"></i>
+                            <span class="ms-1">(128)</span>
+                        </div>
+                    </div>
+                    <div class="d-grid">
+                        <a href="#" class="btn btn-karigar-primary">
+                            <i class="fas fa-calendar-plus me-2"></i> Book Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Service Card 2 -->
+        <div class="col-md-4 mb-4">
+            <div class="service-card">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <h5 class="mb-0">Electrical Repair</h5>
+                    <span class="badge-karigar">Electrical</span>
+                </div>
+                <div class="card-body">
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="rounded-circle bg-light d-flex align-items-center justify-content-center me-3"
+                             style="width: 60px; height: 60px;">
+                            <i class="fas fa-bolt fa-2x text-primary"></i>
+                        </div>
+                        <div>
+                            <h6 class="mb-1">Spark Electricians</h6>
+                            <p class="text-muted small mb-0">
+                                <i class="fas fa-map-marker-alt me-1"></i> Delhi
+                            </p>
+                        </div>
+                    </div>
+                    <p class="card-text">Certified electricians for all electrical needs including wiring, switchboard repair, and appliance installation.</p>
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <div>
+                            <span class="fw-bold text-primary fs-5">₹1500</span>
+                            <span class="text-muted">/service</span>
+                        </div>
+                        <div class="text-warning">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <span class="ms-1">(96)</span>
+                        </div>
+                    </div>
+                    <div class="d-grid">
+                        <a href="#" class="btn btn-karigar-primary">
+                            <i class="fas fa-calendar-plus me-2"></i> Book Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Service Card 3 -->
+        <div class="col-md-4 mb-4">
+            <div class="service-card">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <h5 class="mb-0">Home Cleaning</h5>
+                    <span class="badge-karigar">Cleaning</span>
+                </div>
+                <div class="card-body">
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="rounded-circle bg-light d-flex align-items-center justify-content-center me-3"
+                             style="width: 60px; height: 60px;">
+                            <i class="fas fa-broom fa-2x text-primary"></i>
+                        </div>
+                        <div>
+                            <h6 class="mb-1">CleanMaster</h6>
+                            <p class="text-muted small mb-0">
+                                <i class="fas fa-map-marker-alt me-1"></i> Bangalore
+                            </p>
+                        </div>
+                    </div>
+                    <p class="card-text">Professional cleaning services for homes and offices with trained staff and eco-friendly products.</p>
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <div>
+                            <span class="fw-bold text-primary fs-5">₹2000</span>
+                            <span class="text-muted">/service</span>
+                        </div>
+                        <div class="text-warning">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star-half-alt text-warning"></i>
+                            <span class="ms-1">(214)</span>
+                        </div>
+                    </div>
+                    <div class="d-grid">
+                        <a href="#" class="btn btn-karigar-primary">
+                            <i class="fas fa-calendar-plus me-2"></i> Book Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center mt-4">
+        <a asp-controller="Customer" asp-action="Browse" class="btn btn-karigar-outline">
+            <i class="fas fa-eye me-2"></i> View All Services
+        </a>
+    </div>
+</div>
+
+<!-- Stats Section -->
+<div class="bg-white py-5">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-3 mb-4">
+                <div class="dashboard-card">
+                    <div class="card-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h6>Happy Customers</h6>
+                    <div class="card-value">1,000+</div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="dashboard-card">
+                    <div class="card-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h6>Service Providers</h6>
+                    <div class="card-value">250+</div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="dashboard-card">
+                    <div class="card-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h6>Services Completed</h6>
+                    <div class="card-value">5,000+</div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="dashboard-card">
+                    <div class="card-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h6>Average Rating</h6>
+                    <div class="card-value">4.8/5</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
