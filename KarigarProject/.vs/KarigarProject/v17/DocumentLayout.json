@@ -1,0 +1,377 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\web\\KarigarProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\web\\KarigarProject\\KarigarProject\\Data\\Migrations\\20251219071636_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:KarigarProject\\Data\\Migrations\\20251219071636_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{719A9621-2BCE-48A1-8673-C0F6DFD1224B}|KarigarProject\\KarigarProject.csproj|d:\\web\\karigarproject\\karigarproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{719A9621-2BCE-48A1-8673-C0F6DFD1224B}|KarigarProject\\KarigarProject.csproj|solutionrelative:karigarproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{719A9621-2BCE-48A1-8673-C0F6DFD1224B}|KarigarProject\\KarigarProject.csproj|d:\\web\\karigarproject\\karigarproject\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{719A9621-2BCE-48A1-8673-C0F6DFD1224B}|KarigarProject\\KarigarProject.csproj|solutionrelative:karigarproject\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{719A9621-2BCE-48A1-8673-C0F6DFD1224B}|KarigarProject\\KarigarProject.csproj|d:\\web\\karigarproject\\karigarproject\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{719A9621-2BCE-48A1-8673-C0F6DFD1224B}|KarigarProject\\KarigarProject.csproj|solutionrelative:karigarproject\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{719A9621-2BCE-48A1-8673-C0F6DFD1224B}|KarigarProject\\KarigarProject.csproj|d:\\web\\karigarproject\\karigarproject\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{719A9621-2BCE-48A1-8673-C0F6DFD1224B}|KarigarProject\\KarigarProject.csproj|solutionrelative:karigarproject\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{719A9621-2BCE-48A1-8673-C0F6DFD1224B}|KarigarProject\\KarigarProject.csproj|d:\\web\\karigarproject\\karigarproject\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{719A9621-2BCE-48A1-8673-C0F6DFD1224B}|KarigarProject\\KarigarProject.csproj|solutionrelative:karigarproject\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{719A9621-2BCE-48A1-8673-C0F6DFD1224B}|KarigarProject\\KarigarProject.csproj|d:\\web\\karigarproject\\karigarproject\\views\\customer\\book.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{719A9621-2BCE-48A1-8673-C0F6DFD1224B}|KarigarProject\\KarigarProject.csproj|solutionrelative:karigarproject\\views\\customer\\book.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{719A9621-2BCE-48A1-8673-C0F6DFD1224B}|KarigarProject\\KarigarProject.csproj|d:\\web\\karigarproject\\karigarproject\\views\\customer\\browse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{719A9621-2BCE-48A1-8673-C0F6DFD1224B}|KarigarProject\\KarigarProject.csproj|solutionrelative:karigarproject\\views\\customer\\browse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{719A9621-2BCE-48A1-8673-C0F6DFD1224B}|KarigarProject\\KarigarProject.csproj|d:\\web\\karigarproject\\karigarproject\\models\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{719A9621-2BCE-48A1-8673-C0F6DFD1224B}|KarigarProject\\KarigarProject.csproj|solutionrelative:karigarproject\\models\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{719A9621-2BCE-48A1-8673-C0F6DFD1224B}|KarigarProject\\KarigarProject.csproj|d:\\web\\karigarproject\\karigarproject\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{719A9621-2BCE-48A1-8673-C0F6DFD1224B}|KarigarProject\\KarigarProject.csproj|solutionrelative:karigarproject\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{719A9621-2BCE-48A1-8673-C0F6DFD1224B}|KarigarProject\\KarigarProject.csproj|d:\\web\\karigarproject\\karigarproject\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{719A9621-2BCE-48A1-8673-C0F6DFD1224B}|KarigarProject\\KarigarProject.csproj|solutionrelative:karigarproject\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{719A9621-2BCE-48A1-8673-C0F6DFD1224B}|KarigarProject\\KarigarProject.csproj|d:\\web\\karigarproject\\karigarproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{719A9621-2BCE-48A1-8673-C0F6DFD1224B}|KarigarProject\\KarigarProject.csproj|solutionrelative:karigarproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{719A9621-2BCE-48A1-8673-C0F6DFD1224B}|KarigarProject\\KarigarProject.csproj|d:\\web\\karigarproject\\karigarproject\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{719A9621-2BCE-48A1-8673-C0F6DFD1224B}|KarigarProject\\KarigarProject.csproj|solutionrelative:karigarproject\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{719A9621-2BCE-48A1-8673-C0F6DFD1224B}|KarigarProject\\KarigarProject.csproj|d:\\web\\karigarproject\\karigarproject\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{719A9621-2BCE-48A1-8673-C0F6DFD1224B}|KarigarProject\\KarigarProject.csproj|solutionrelative:karigarproject\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{719A9621-2BCE-48A1-8673-C0F6DFD1224B}|KarigarProject\\KarigarProject.csproj|d:\\web\\karigarproject\\karigarproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{719A9621-2BCE-48A1-8673-C0F6DFD1224B}|KarigarProject\\KarigarProject.csproj|solutionrelative:karigarproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{719A9621-2BCE-48A1-8673-C0F6DFD1224B}|KarigarProject\\KarigarProject.csproj|d:\\web\\karigarproject\\karigarproject\\data\\migrations\\00000000000000_createidentityschema.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{719A9621-2BCE-48A1-8673-C0F6DFD1224B}|KarigarProject\\KarigarProject.csproj|solutionrelative:karigarproject\\data\\migrations\\00000000000000_createidentityschema.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{719A9621-2BCE-48A1-8673-C0F6DFD1224B}|KarigarProject\\KarigarProject.csproj|d:\\web\\karigarproject\\karigarproject\\data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{719A9621-2BCE-48A1-8673-C0F6DFD1224B}|KarigarProject\\KarigarProject.csproj|solutionrelative:karigarproject\\data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{719A9621-2BCE-48A1-8673-C0F6DFD1224B}|KarigarProject\\KarigarProject.csproj|d:\\web\\karigarproject\\karigarproject\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{719A9621-2BCE-48A1-8673-C0F6DFD1224B}|KarigarProject\\KarigarProject.csproj|solutionrelative:karigarproject\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{719A9621-2BCE-48A1-8673-C0F6DFD1224B}|KarigarProject\\KarigarProject.csproj|d:\\web\\karigarproject\\karigarproject\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{719A9621-2BCE-48A1-8673-C0F6DFD1224B}|KarigarProject\\KarigarProject.csproj|solutionrelative:karigarproject\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{719A9621-2BCE-48A1-8673-C0F6DFD1224B}|KarigarProject\\KarigarProject.csproj|d:\\web\\karigarproject\\karigarproject\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{719A9621-2BCE-48A1-8673-C0F6DFD1224B}|KarigarProject\\KarigarProject.csproj|solutionrelative:karigarproject\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{719A9621-2BCE-48A1-8673-C0F6DFD1224B}|KarigarProject\\KarigarProject.csproj|d:\\web\\karigarproject\\karigarproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{719A9621-2BCE-48A1-8673-C0F6DFD1224B}|KarigarProject\\KarigarProject.csproj|solutionrelative:karigarproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20251219071636_InitialCreate.cs",
+              "DocumentMoniker": "D:\\web\\KarigarProject\\KarigarProject\\Data\\Migrations\\20251219071636_InitialCreate.cs",
+              "RelativeDocumentMoniker": "KarigarProject\\Data\\Migrations\\20251219071636_InitialCreate.cs",
+              "ToolTip": "D:\\web\\KarigarProject\\KarigarProject\\Data\\Migrations\\20251219071636_InitialCreate.cs",
+              "RelativeToolTip": "KarigarProject\\Data\\Migrations\\20251219071636_InitialCreate.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T07:16:36.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Book.cshtml",
+              "DocumentMoniker": "D:\\web\\KarigarProject\\KarigarProject\\Views\\Customer\\Book.cshtml",
+              "RelativeDocumentMoniker": "KarigarProject\\Views\\Customer\\Book.cshtml",
+              "ToolTip": "D:\\web\\KarigarProject\\KarigarProject\\Views\\Customer\\Book.cshtml",
+              "RelativeToolTip": "KarigarProject\\Views\\Customer\\Book.cshtml",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAswGUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-19T07:10:37.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "D:\\web\\KarigarProject\\KarigarProject\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "KarigarProject\\Data\\SeedData.cs",
+              "ToolTip": "D:\\web\\KarigarProject\\KarigarProject\\Data\\SeedData.cs",
+              "RelativeToolTip": "KarigarProject\\Data\\SeedData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T07:08:56.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "D:\\web\\KarigarProject\\KarigarProject\\Models\\UserProfile.cs",
+              "RelativeDocumentMoniker": "KarigarProject\\Models\\UserProfile.cs",
+              "ToolTip": "D:\\web\\KarigarProject\\KarigarProject\\Models\\UserProfile.cs",
+              "RelativeToolTip": "KarigarProject\\Models\\UserProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T07:08:05.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Service.cs",
+              "DocumentMoniker": "D:\\web\\KarigarProject\\KarigarProject\\Models\\Service.cs",
+              "RelativeDocumentMoniker": "KarigarProject\\Models\\Service.cs",
+              "ToolTip": "D:\\web\\KarigarProject\\KarigarProject\\Models\\Service.cs",
+              "RelativeToolTip": "KarigarProject\\Models\\Service.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA/wB8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T06:51:57.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\web\\KarigarProject\\KarigarProject\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "KarigarProject\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\web\\KarigarProject\\KarigarProject\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "KarigarProject\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T06:55:19.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\web\\KarigarProject\\KarigarProject\\Program.cs",
+              "RelativeDocumentMoniker": "KarigarProject\\Program.cs",
+              "ToolTip": "D:\\web\\KarigarProject\\KarigarProject\\Program.cs",
+              "RelativeToolTip": "KarigarProject\\Program.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAuwFAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T06:55:43.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "D:\\web\\KarigarProject\\KarigarProject\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "KarigarProject\\Controllers\\CustomerController.cs",
+              "ToolTip": "D:\\web\\KarigarProject\\KarigarProject\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "KarigarProject\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAswAwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T06:58:06.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Browse.cshtml",
+              "DocumentMoniker": "D:\\web\\KarigarProject\\KarigarProject\\Views\\Customer\\Browse.cshtml",
+              "RelativeDocumentMoniker": "KarigarProject\\Views\\Customer\\Browse.cshtml",
+              "ToolTip": "D:\\web\\KarigarProject\\KarigarProject\\Views\\Customer\\Browse.cshtml",
+              "RelativeToolTip": "KarigarProject\\Views\\Customer\\Browse.cshtml",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAwwI8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-19T06:59:02.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "D:\\web\\KarigarProject\\KarigarProject\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "KarigarProject\\Models\\Booking.cs",
+              "ToolTip": "D:\\web\\KarigarProject\\KarigarProject\\Models\\Booking.cs",
+              "RelativeToolTip": "KarigarProject\\Models\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T06:53:46.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\web\\KarigarProject\\KarigarProject\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "KarigarProject\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\web\\KarigarProject\\KarigarProject\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "KarigarProject\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAOMAAAAAAAAAAAAwwAYBAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-19T06:49:24.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\web\\KarigarProject\\KarigarProject\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "KarigarProject\\wwwroot\\js\\site.js",
+              "ToolTip": "D:\\web\\KarigarProject\\KarigarProject\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "KarigarProject\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAPQAAAAAAAAAAAAwwBcBAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-19T06:50:20.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\web\\KarigarProject\\KarigarProject\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "KarigarProject\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\web\\KarigarProject\\KarigarProject\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "KarigarProject\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAB4BAAAAAAAAAAAqwEIBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-19T06:49:10.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\web\\KarigarProject\\KarigarProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "KarigarProject\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\web\\KarigarProject\\KarigarProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "KarigarProject\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAuwK8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-19T06:48:14.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "00000000000000_CreateIdentitySchema.Designer.cs",
+              "DocumentMoniker": "D:\\web\\KarigarProject\\KarigarProject\\Data\\Migrations\\00000000000000_CreateIdentitySchema.Designer.cs",
+              "RelativeDocumentMoniker": "KarigarProject\\Data\\Migrations\\00000000000000_CreateIdentitySchema.Designer.cs",
+              "ToolTip": "D:\\web\\KarigarProject\\KarigarProject\\Data\\Migrations\\00000000000000_CreateIdentitySchema.Designer.cs",
+              "RelativeToolTip": "KarigarProject\\Data\\Migrations\\00000000000000_CreateIdentitySchema.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T07:00:48.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Review.cs",
+              "DocumentMoniker": "D:\\web\\KarigarProject\\KarigarProject\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "KarigarProject\\Models\\Review.cs",
+              "ToolTip": "D:\\web\\KarigarProject\\KarigarProject\\Models\\Review.cs",
+              "RelativeToolTip": "KarigarProject\\Models\\Review.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwCUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T06:54:44.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\web\\KarigarProject\\KarigarProject\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "KarigarProject\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\web\\KarigarProject\\KarigarProject\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "KarigarProject\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T07:00:59.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\web\\KarigarProject\\KarigarProject\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "KarigarProject\\Views\\Account\\Register.cshtml",
+              "ToolTip": "D:\\web\\KarigarProject\\KarigarProject\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "KarigarProject\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-19T06:57:24.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\web\\KarigarProject\\KarigarProject\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "KarigarProject\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\web\\KarigarProject\\KarigarProject\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "KarigarProject\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-19T06:57:01.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\web\\KarigarProject\\KarigarProject\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "KarigarProject\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\web\\KarigarProject\\KarigarProject\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "KarigarProject\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAwwGAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T06:56:23.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\web\\KarigarProject\\KarigarProject\\appsettings.json",
+              "RelativeDocumentMoniker": "KarigarProject\\appsettings.json",
+              "ToolTip": "D:\\web\\KarigarProject\\KarigarProject\\appsettings.json",
+              "RelativeToolTip": "KarigarProject\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-19T06:55:56.049Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

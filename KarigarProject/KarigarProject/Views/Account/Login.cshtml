@@ -1,0 +1,56 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card border-0 shadow-lg">
+                <div class="card-header bg-primary text-white text-center py-4">
+                    <h3><i class="fas fa-sign-in-alt me-2"></i>Login to Karigar</h3>
+                </div>
+                <div class="card-body p-5">
+                    <form method="post">
+                        <div class="mb-4">
+                            <label class="form-label">Email Address</label>
+                            <input type="email" name="email" class="form-control form-control-lg"
+                                   placeholder="Enter your email" required>
+                        </div>
+                        <div class="mb-4">
+                            <label class="form-label">Password</label>
+                            <input type="password" name="password" class="form-control form-control-lg"
+                                   placeholder="Enter your password" required>
+                        </div>
+                        <div class="d-grid mb-3">
+                            <button type="submit" class="btn btn-karigar-primary btn-lg">
+                                <i class="fas fa-sign-in-alt me-2"></i> Login
+                            </button>
+                        </div>
+                        <div class="text-center">
+                            <p class="mb-0">
+                                Don't have an account?
+                                <a asp-controller="Account" asp-action="Register" class="text-primary">Register here</a>
+                            </p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .card {
+        border-radius: 15px;
+    }
+
+    .form-control-lg {
+        padding: 15px;
+        border-radius: 10px;
+    }
+</style>

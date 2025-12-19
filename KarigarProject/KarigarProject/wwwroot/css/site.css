@@ -1,0 +1,322 @@
+/* ========== COLOR PALETTE ========== */
+:root {
+    --primary-dark: #03045e;
+    --primary: #0077b6;
+    --primary-light: #00b4d8;
+    --accent-1: #0096c7;
+    --accent-2: #48cae4;
+    --background-light: #caf0f8;
+    --background-lighter: #ffffff;
+    --success: #2ecc71;
+    --warning: #f39c12;
+    --danger: #e74c3c;
+    --text-dark: #03045e;
+    --text-medium: #023e8a;
+    --text-light: #0077b6;
+}
+
+/* ========== GLOBAL STYLES ========== */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-light);
+    color: var(--text-medium);
+    line-height: 1.6;
+    min-height: 100vh;
+    padding-top: 70px; /* For fixed navbar */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    color: var(--primary-dark);
+    font-weight: 600;
+}
+
+/* ========== NAVBAR ========== */
+.navbar-karigar {
+    background: linear-gradient(135deg, var(--primary-dark), var(--primary));
+    box-shadow: 0 4px 12px rgba(3, 4, 94, 0.1);
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: white !important;
+}
+
+    .navbar-brand span {
+        color: var(--accent-2);
+    }
+
+.nav-link {
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-weight: 500;
+    padding: 0.5rem 1rem !important;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+    .nav-link:hover {
+        color: var(--accent-2) !important;
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+/* ========== BUTTONS ========== */
+.btn-karigar-primary {
+    background: linear-gradient(135deg, var(--primary), var(--accent-1));
+    color: white;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+}
+
+    .btn-karigar-primary:hover {
+        background: linear-gradient(135deg, var(--primary-dark), var(--primary));
+        color: white;
+        transform: translateY(-2px);
+        box-shadow: 0 8px 20px rgba(0, 119, 182, 0.3);
+    }
+
+.btn-karigar-secondary {
+    background: var(--accent-2);
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+    .btn-karigar-secondary:hover {
+        background: #3ab4d4;
+        color: white;
+        transform: translateY(-2px);
+    }
+
+.btn-karigar-outline {
+    background: transparent;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+    padding: 10px 24px;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+    .btn-karigar-outline:hover {
+        background: var(--primary);
+        color: white;
+        transform: translateY(-2px);
+    }
+
+/* ========== HERO SECTION ========== */
+.hero-section {
+    background: linear-gradient(rgba(3, 4, 94, 0.8), rgba(0, 119, 182, 0.8)), url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') center/cover no-repeat;
+    color: white;
+    padding: 100px 0;
+    margin-bottom: 50px;
+    border-radius: 0 0 20px 20px;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+    max-width: 600px;
+}
+
+/* ========== CARDS ========== */
+.service-card {
+    background: white;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 8px 25px rgba(0, 119, 182, 0.1);
+    transition: all 0.3s ease;
+    overflow: hidden;
+    margin-bottom: 25px;
+    height: 100%;
+}
+
+    .service-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 15px 35px rgba(0, 119, 182, 0.15);
+    }
+
+.card-header {
+    background: linear-gradient(to right, var(--primary), var(--accent-1));
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    font-weight: 600;
+}
+
+.card-body {
+    padding: 25px;
+}
+
+/* ========== BADGES ========== */
+.badge-karigar {
+    background: var(--accent-2);
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+/* ========== FORMS ========== */
+.form-control {
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 12px 15px;
+    transition: all 0.3s ease;
+}
+
+    .form-control:focus {
+        border-color: var(--primary-light);
+        box-shadow: 0 0 0 0.25rem rgba(0, 180, 216, 0.25);
+    }
+
+.form-label {
+    font-weight: 600;
+    color: var(--text-dark);
+    margin-bottom: 8px;
+}
+
+/* ========== FOOTER ========== */
+.footer-karigar {
+    background: var(--primary-dark);
+    color: white;
+    padding: 40px 0 20px;
+    margin-top: 60px;
+}
+
+.footer-links a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    transition: color 0.3s ease;
+    display: block;
+    margin-bottom: 8px;
+}
+
+    .footer-links a:hover {
+        color: var(--accent-2);
+        padding-left: 5px;
+    }
+
+/* ========== DASHBOARD CARDS ========== */
+.dashboard-card {
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    border-left: 5px solid var(--primary);
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+    .dashboard-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    }
+
+    .dashboard-card .card-icon {
+        font-size: 2.5rem;
+        color: var(--primary);
+        margin-bottom: 15px;
+    }
+
+    .dashboard-card .card-value {
+        font-size: 2rem;
+        font-weight: 700;
+        color: var(--primary-dark);
+    }
+
+/* ========== STATUS BADGES ========== */
+.status-badge {
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.status-requested {
+    background: #fff3cd;
+    color: #856404;
+}
+
+.status-confirmed {
+    background: #d4edda;
+    color: #155724;
+}
+
+.status-completed {
+    background: var(--accent-2);
+    color: white;
+}
+
+.status-cancelled {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+/* ========== RESPONSIVE ========== */
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2.2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+}
+
+/* ========== ANIMATIONS ========== */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.6s ease-out;
+}
+
+/* ========== UTILITY CLASSES ========== */
+.text-gradient {
+    background: linear-gradient(135deg, var(--primary), var(--accent-2));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.shadow-soft {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.rounded-xl {
+    border-radius: 15px;
+}
